@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: nscloud
     strategy:
       matrix:
         python-version: [2.7, 3.5, 3.6, 3.7, 3.8]
